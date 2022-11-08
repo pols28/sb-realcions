@@ -1,6 +1,23 @@
-package com.example.sbrealcions;public class CourseMaterial {
+package com.example.sbrealcions;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class CourseMaterial {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String url;
 
+    public CourseMaterial (String url){
+        this.url = url;
+    }
+
+    public CourseMaterial() {
+
+    }
 
     public String getUrl() {
         return url;
@@ -9,4 +26,6 @@ package com.example.sbrealcions;public class CourseMaterial {
     public void setUrl(String url) {
         this.url = url;
     }
+
+
 }
