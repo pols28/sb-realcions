@@ -1,4 +1,4 @@
-package com.example.sbrealcions;
+package com.example.App.sbrealcions;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

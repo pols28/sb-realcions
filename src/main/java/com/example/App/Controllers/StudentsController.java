@@ -1,6 +1,6 @@
-package com.example.Controllers;
-import com.example.Repositoris.StudentRep;
-import com.example.sbrealcions.Student;
+package com.example.App.Controllers;
+import com.example.App.Repositoris.StudentRep;
+import com.example.App.sbrealcions.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

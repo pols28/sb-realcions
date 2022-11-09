@@ -1,5 +1,5 @@
-package com.example.Repositoris;
-import com.example.sbrealcions.Student;
+package com.example.App.Repositoris;
+import com.example.App.sbrealcions.Student;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;
